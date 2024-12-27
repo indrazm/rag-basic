@@ -1,15 +1,8 @@
-# basics
+# Basic AI
 
-To install dependencies:
-
-```bash
-bun install
-```
-
-To run:
+## Docker of Vector Database
 
 ```bash
-bun run index.ts
+docker pull chromadb/chroma
+docker run --name basic-chromadb -p 8000:8000 chromadb/chroma
 ```
-
-This project was created using `bun init` in bun v1.1.38. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.

@@ -7,7 +7,6 @@
 const contentFilePath = "./assets/devscaleai.txt";
 const file = Bun.file(contentFilePath);
 const content = await file.text();
-// console.log(content);
 
 //! ================================================================ //
 //! Preprocessing
@@ -22,8 +21,7 @@ const splitter = new RecursiveCharacterTextSplitter({
   chunkOverlap: 120,
 });
 
-const documents = await splitter.splitText(content);
-// console.log(documents);
+const textChunks = await splitter.splitText(content);
 
 //! ================================================================ //
 //! Vectorization
@@ -36,12 +34,27 @@ const embeddings = new OpenAIEmbeddings({
   model: "text-embedding-3-large",
 });
 
-const placeholder = ["I love ice cream"];
-const vectorizeDocuments = await embeddings.embedDocuments(placeholder);
-console.log(vectorizeDocuments);
+// const vectorizeDocuments = await embeddings.embedDocuments(textChunks);
+// console.log(vectorizeDocuments);
 
 //! ================================================================ //
 //! Indexing
 //! In this section, you need to index the data.
 //! we would use ChromaDB for the vector store
 //! ================================================================ //
+
+import { Chroma } from "@langchain/community/vectorstores/chroma";
+import type { Document } from "@langchain/core/documents";
+
+const documents: Document[] = textChunks.map((chunk) => {
+  return {
+    pageContent: chunk,
+    metadata: { source: "devscaleai" },
+  };
+});
+
+const vectorStore = new Chroma(embeddings, {
+  collectionName: "collectionName",
+});
+
+await vectorStore.addDocuments(documents);
