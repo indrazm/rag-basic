@@ -1,0 +1,64 @@
+DevScale AI Company Profile
+
+Founder:
+Indra Zulfi
+
+Company Overview:
+DevScale AI, headquartered in Surabaya, Indonesia, is a pioneering AI company specializing in delivering advanced artificial intelligence solutions to businesses worldwide. Established with the vision of transforming industries through the power of AI, DevScale AI has developed cutting-edge SaaS products and services designed to empower companies to optimize processes, enhance decision-making, and drive innovation.
+
+Mission:
+To democratize AI by providing accessible, scalable, and impactful solutions that empower businesses of all sizes to unlock their full potential.
+
+Vision:
+To be a global leader in artificial intelligence innovation, fostering a smarter, more efficient world by bridging the gap between technology and human ingenuity.
+
+Services and Products:
+
+SaaS Products:
+DevScale AI offers five state-of-the-art SaaS platforms tailored to various industries:
+ScaleVision: An AI-powered computer vision tool for automated quality inspection and monitoring in manufacturing.
+InsightPro: A data analytics and predictive modeling platform for business intelligence and decision-making.
+ChatFlow: An AI-driven customer support and chatbot solution for seamless user engagement.
+AutoGen: A generative AI platform for creating content, designs, and marketing materials efficiently.
+SecureID: A robust identity verification and fraud detection tool leveraging AI and machine learning.
+
+Custom AI Solutions:
+DevScale AI provides tailored AI development services, including natural language processing, machine learning models, and computer vision applications.
+
+Consulting and Training:
+AI strategy consulting for businesses looking to integrate AI solutions.
+Training programs and workshops for organizations aiming to build internal AI capabilities.
+
+Company Funding Stage:
+DevScale AI is currently at the Series A funding stage, having successfully secured initial seed funding from prominent investors in the Southeast Asia region. The company is now seeking to expand its market presence and enhance product development.
+
+Core Values:
+
+Innovation: Pioneering AI solutions to solve complex challenges.
+Collaboration: Partnering with clients to achieve their unique goals.
+Integrity: Upholding transparency and ethical standards in AI development.
+Impact: Creating technology that drives meaningful and measurable outcomes.
+
+Key Achievements:
+Awarded "Top AI Startup in Indonesia" by TechAsia in 2023.
+Successfully deployed AI solutions in over 50 enterprises across manufacturing, retail, and finance sectors.
+Achieved a 300% growth in client base within two years of operation.
+
+Market Opportunity:
+Indonesia and Southeast Asia are experiencing a surge in AI adoption, with industries such as e-commerce, fintech, and logistics investing heavily in digital transformation. DevScale AI is uniquely positioned to cater to this growing demand with its localized expertise and globally competitive technology.
+
+Team:
+DevScale AI’s team consists of highly skilled data scientists, engineers, and business strategists who share a passion for leveraging AI to create value for businesses.
+
+Future Plans:
+Expand SaaS product offerings to cater to healthcare and education sectors.
+Open regional offices in Jakarta and Singapore to strengthen Southeast Asian operations.
+Invest in R&D to stay ahead in AI innovation.
+Launch a Developer Ecosystem Program to engage and support AI enthusiasts and professionals.
+
+Contact Information:
+Website: www.devscale-ai.com
+Address: Jl. Raya Darmo No. 45, Surabaya, Indonesia
+Email: contact@devscale-ai.com
+Phone: +62 31 1234 5678
+
